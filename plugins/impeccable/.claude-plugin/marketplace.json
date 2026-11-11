@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "impeccable-local",
+  "description": "Local marketplace wrapper for Impeccable 4.8.0",
+  "owner": {
+    "name": "Local toolkit"
+  },
+  "plugins": [
+    {
+      "name": "impeccable",
+      "description": "Design fluency for frontend development",
+      "source": "./",
+      "category": "design"
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+[
+  {
+    "folder": "ai-engineering",
+    "frontmatter_name": "ai-engineering",
+    "description": "Use when building AI-powered features involving LLM APIs, structured outputs, retrieval, embeddings, RAG, tool calling, agents, evaluation, or AI cost and reliability."
+  },
+  {
+    "folder": "api-design",
+    "frontmatter_name": "api-design",
+    "description": "REST API design patterns including resource naming, status codes, pagination, filtering, error responses, versioning, and rate limiting for production APIs. Use when designing or reviewing REST endpoints, resource names, status codes, pagination, or versioning."
+  },
+  {
+    "folder": "architecture-decision-records",
+    "frontmatter_name": "architecture-decision-records",
+    "description": "Capture architectural decisions as numbered ADR markdown files in docs/adr/ with context, alternatives considered, consequences, and an index README. Use when the user says 'record this decision' or 'ADR this', chooses between frameworks or databases, discusses trade-offs, or asks why the codebase is shaped this way."
+  },
+  {
+    "folder": "backend-development",
+    "frontmatter_name": "backend-development",
+    "description": "Use to implement server-side features, business logic, authentication, authorization, integrations, background work, and robust API behavior."
+  },
+  {
+    "folder": "backend-patterns",
+    "frontmatter_name": "backend-patterns",
+    "description": "Backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes. Use when building or reviewing Node.js, Express, or Next.js API routes and their data access."
+  },
+  {
+    "folder": "blueprint",
+    "frontmatter_name": "blueprint",
+    "description": "Turn a one-line objective into a step-by-step construction plan for multi-session, multi-agent engineering projects: one-PR-sized steps with self-contained context briefs, dependency graph with parallel-step detection, adversarial review gate, and plan mutation protocol. Use when planning a large feature, refactor, or roadmap that spans multiple PRs or sessions; not for single-PR tasks or when the user says \\\"just do it\\\"."
+  },
+  {
+    "folder": "code-review-refactoring",
+    "frontmatter_name": "code-review-refactoring",
+    "description": "Use to review existing code for correctness, maintainability, performance, consistency, and safe refactoring without changing intended behavior."
+  },
+  {
+    "folder": "coding-standards",
+    "frontmatter_name": "coding-standards",
+    "description": "Baseline cross-project coding conventions for naming, readability, immutability, and code-quality review. Use detailed frontend or backend skills for framework-specific patterns. Use when reviewing code quality or naming with no framework-specific skill that applies."
+  },
+  {
+    "folder": "competitive-platform-analysis",
+    "frontmatter_name": "competitive-platform-analysis",
+    "description": "Use when scoping a competitive landscape \u2014 identifying, categorising, and score-filtering a competitor set before any benchmarking begins. Decides who counts as a competitor, which tier they belong to, and which sources to mine. First step in the three-skill competitive pipeline; precedes benchmark-methodology."
+  },
+  {
+    "folder": "council",
+    "frontmatter_name": "council",
+    "description": "Convene a four-voice council for ambiguous decisions, tradeoffs, and go/no-go calls. Use when multiple valid paths exist and you need structured disagreement before choosing."
+  },
+  {
+    "folder": "database-api-design",
+    "frontmatter_name": "database-api-design",
+    "description": "Use when designing or changing database schemas, data relationships, API contracts, validation rules, or persistence behavior."
+  },
+  {
+    "folder": "deployment-patterns",
+    "frontmatter_name": "deployment-patterns",
+    "description": "Deployment workflows, CI/CD pipeline patterns, Docker containerization, health checks, rollback strategies, and production readiness checklists for web applications. Use when setting up CI/CD, containerizing an app, or checking production readiness before a release."
+  },
+  {
+    "folder": "deployment-release",
+    "frontmatter_name": "deployment-release",
+    "description": "Use when preparing a staging or production release, configuring hosting and environments, running migrations, deploying, or verifying a live application."
+  },
+  {
+    "folder": "design-system",
+    "frontmatter_name": "design-system",
+    "description": "Generate a design system from an existing codebase or audit one for visual consistency: extract tokens (colors, typography, spacing, shadows) into design-tokens.json and CSS custom properties with DESIGN.md rationale and an interactive HTML preview, score the UI across 10 dimensions, and flag AI-slop patterns. Use when starting a design system, auditing visual consistency before a redesign, or reviewing a PR that touches styling."
+  },
+  {
+    "folder": "dev-team",
+    "frontmatter_name": "dev-team",
+    "description": "Simulate a collaborative dev team session where multiple role-based personas (PM, Architect, Developer, QA) respond to the same problem together in one session. Use when designing a feature, reviewing a proposal, or onboarding a new initiative and you want multi-role perspective without switching agents manually."
+  },
+  {
+    "folder": "docker-patterns",
+    "frontmatter_name": "docker-patterns",
+    "description": "Docker and Docker Compose patterns for local development, hardened CLI installer harnesses, container security, networking, volumes, and multi-service orchestration. Use when creating or reviewing Dockerfiles and Compose services, testing installers across Linux distributions, or planning accurate native macOS and Windows validation."
+  },
+  {
+    "folder": "documentation-handoff",
+    "frontmatter_name": "documentation-handoff",
+    "description": "Use when creating or updating README files, setup instructions, architecture notes, API documentation, operational guides, and final project handoff."
+  },
+  {
+    "folder": "e2e-testing",
+    "frontmatter_name": "e2e-testing",
+    "description": "Playwright E2E testing patterns, Page Object Model, configuration, CI/CD integration, artifact management, and flaky test strategies. Use when writing Playwright tests, structuring page objects, or fixing flaky E2E runs in CI."
+  },
+  {
+    "folder": "find-skills",
+    "frontmatter_name": "find-skills",
+    "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill."
+  },
+  {
+    "folder": "frontend-a11y",
+    "frontmatter_name": "frontend-a11y",
+    "description": "Accessibility patterns for React and Next.js \u2014 semantic HTML, ARIA attributes, form labeling, keyboard navigation, focus management, and screen reader support. Use when building or reviewing forms, modals, dropdowns, tooltips, or tabs, fixing a11y lint or code-review findings, or wiring up keyboard navigation and focus management."
+  },
+  {
+    "folder": "frontend-design-direction",
+    "frontmatter_name": "frontend-design-direction",
+    "description": "Set an ECC-specific frontend design direction for production UI work. Use when building or improving websites, dashboards, applications, components, landing pages, visual tools, or any web UI that needs stronger product-specific design judgment."
+  },
+  {
+    "folder": "frontend-development",
+    "frontmatter_name": "frontend-development",
+    "description": "Use to implement or improve frontend pages, components, forms, navigation, responsive behavior, accessibility, and client-side state based on approved designs and requirements."
+  },
+  {
+    "folder": "frontend-patterns",
+    "frontmatter_name": "frontend-patterns",
+    "description": "Frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices. Use when building or reviewing React or Next.js components, state, or render performance."
+  },
+  {
+    "folder": "git-workflow",
+    "frontmatter_name": "git-workflow",
+    "description": "Git workflow patterns including branching strategies, commit conventions, keeping history clean and readable, tidying local commits before merging, merge vs rebase, conflict resolution, and collaborative development best practices for teams of all sizes. Use when choosing a branching strategy, writing commit conventions, cleaning up history before a pull request, deciding merge versus rebase, or resolving conflicts."
+  },
+  {
+    "folder": "integration-debugging",
+    "frontmatter_name": "integration-debugging",
+    "description": "Use when connecting frontend, backend, databases, third-party services, authentication, webhooks, or diagnosing cross-system failures."
+  },
+  {
+    "folder": "market-research",
+    "frontmatter_name": "market-research",
+    "description": "Use when a product needs competitor research, market context, reference products, user-experience patterns, or evidence-based product differentiation."
+  },
+  {
+    "folder": "postgres-patterns",
+    "frontmatter_name": "postgres-patterns",
+    "description": "PostgreSQL database patterns for query optimization, schema design, indexing, and security. Based on Supabase best practices. Use when designing PostgreSQL schemas, indexes, or RLS policies, or when a query is too slow."
+  },
+  {
+    "folder": "product-capability",
+    "frontmatter_name": "product-capability",
+    "description": "Translate PRD intent, roadmap asks, or product discussions into an implementation-ready capability plan that exposes constraints, invariants, interfaces, and unresolved decisions before multi-service work starts. Use when the user needs an ECC-native PRD-to-SRS lane instead of vague planning prose."
+  },
+  {
+    "folder": "product-discovery",
+    "frontmatter_name": "product-discovery",
+    "description": "Use at the start of a new software product or website to clarify the problem, users, scope, requirements, constraints, and success criteria before design or coding."
+  },
+  {
+    "folder": "product-lens",
+    "frontmatter_name": "product-lens",
+    "description": "Validate the why before building through four product diagnostics \u2014 a YC-style product diagnostic that produces PRODUCT-BRIEF.md with a go/no-go recommendation, a founder review scoring product-market-fit signals, a user journey audit measuring time-to-value, and ICE feature prioritization. Use when pressure-testing product direction, choosing between features, sanity-checking a launch, or converting a vague idea into a product brief."
+  },
+  {
+    "folder": "production-audit",
+    "frontmatter_name": "production-audit",
+    "description": "Local-evidence production readiness audit for shipped apps, pre-launch reviews, post-merge checks, and \"what breaks in prod?\" questions without sending repo data to an external audit service. Use when auditing production readiness before launch, after a merge, or when asked what breaks in prod."
+  },
+  {
+    "folder": "python-patterns",
+    "frontmatter_name": "python-patterns",
+    "description": "Pythonic idioms, PEP 8 standards, type hints, and best practices for building robust, efficient, and maintainable Python applications. Use when writing or reviewing Python code and idiomatic structure, typing, or PEP 8 is in question."
+  },
+  {
+    "folder": "react-patterns",
+    "frontmatter_name": "react-patterns",
+    "description": "React 18/19 patterns including hooks discipline, server/client component boundaries, Suspense + error boundaries, form actions, data fetching, state management decision trees, and accessibility-first composition. Use when writing or reviewing React components."
+  },
+  {
+    "folder": "rules-distill",
+    "frontmatter_name": "rules-distill",
+    "description": "Scan skills to extract cross-cutting principles and distill them into rules \u2014 append, revise, or create new rule files. Use when the same principle keeps recurring across skills and belongs in a rule file instead."
+  },
+  {
+    "folder": "security-review",
+    "frontmatter_name": "security-review",
+    "description": "Use to review application security, authentication, authorization, data handling, dependencies, secrets, APIs, and release risks."
+  },
+  {
+    "folder": "software-architecture",
+    "frontmatter_name": "software-architecture",
+    "description": "Use before implementation or when major technical decisions are needed to design application architecture, technology choices, boundaries, integrations, and deployment topology."
+  },
+  {
+    "folder": "testing-qa",
+    "frontmatter_name": "testing-qa",
+    "description": "Use to create and execute a testing strategy, write unit/integration/end-to-end tests, verify acceptance criteria, and report quality accurately."
+  },
+  {
+    "folder": "ui-ux-design",
+    "frontmatter_name": "ui-ux-design",
+    "description": "Use when turning approved requirements into user flows, wireframes, visual direction, design systems, responsive layouts, and interface specifications."
+  },
+  {
+    "folder": "ui-ux-pro-max",
+    "frontmatter_name": "ui-ux-pro-max",
+    "description": "UI/UX design intelligence for web, mobile, and desktop. This skill should be used when designing, building, reviewing, or fixing interfaces, including pages, components, design systems, accessibility, interaction, responsive layout, typography, color, charts, and stack-specific UI implementation. Searchable local data: 79 searchable styles (50 active), 192 product palettes and reasoning profiles, 74 font pairings, 119 UX guidelines, 105 icons, 17 GSAP presets, 25 chart types, and 22 stacks."
+  },
+  {
+    "folder": "verification-loop",
+    "frontmatter_name": "verification-loop",
+    "description": "Run a six-phase verification of a Claude Code session's work \u2014 build, type check, lint, tests with coverage, security grep, and diff review \u2014 then produce a PASS/FAIL verification report. Use when verifying work after completing a feature or refactor, before creating a PR, or when quality gates must pass."
+  }
+]
